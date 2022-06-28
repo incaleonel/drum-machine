@@ -1,0 +1,25 @@
+.drum-pad{
+    width: 90px;
+    height: 90px;
+    background-color: gray;
+    font-size: 1.9em;
+    line-height:90px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 8%;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 1);
+    user-select: none;
+    position: relative;
+}
+.drum-pad.pulsadoOFF{ 
+    box-shadow: none;
+    top: 2px;
+    left: 2px;
+}
+
+.drum-pad.pulsadoON{ 
+    background-color: orange;
+    box-shadow: none;
+    top: 2px;
+    left: 2px;
+}
